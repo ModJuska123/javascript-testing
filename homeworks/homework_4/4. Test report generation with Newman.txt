@@ -1,0 +1,20 @@
+You already have a node.js express application for Shop and ShopItem management.
+The repo also contains PostmanCollection to test these calls.
+
+1. I should be able to run tests with 'npm run test'.
+This means i should have a dev dependency to newman.
+
+2. 'npm run test:report' should generate an htmlextra report.
+Report should not be committed to repo. (.gitignore should be updated)
+
+3. Try using Postman Variables and environments. BaseUrl should be an environment variable.
+This will require to export environment as a file as well.
+
+Nothing should be installed with -g
+
+4. Extra Optional.
+You need a running application to run your tests succesfully.
+You can launch the application and run the tests by using npm package 'concurrently'
+https://www.npmjs.com/package/concurrently
+You can launch server and tests with a single command.
+If you have other that you prefer use that.

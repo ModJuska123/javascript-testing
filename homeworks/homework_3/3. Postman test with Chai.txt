@@ -1,0 +1,12 @@
+Write some tests for Postman Chai
+
+GET endpoints should have check that they return 200 and are not empty.
+POST endpoint should return 201
+Delete endpoint should return 204 and returns no json. (json is empty)
+PUT endpoint returns an object with at least 3 properties and Id is not empty.
+
+Export these tests in collection to your GIT repository.
+
+Additional/advanced
+
+Try thinking/search how can you run all tests automatically?

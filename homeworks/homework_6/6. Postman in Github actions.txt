@@ -1,0 +1,11 @@
+You have a public api with swagger documentation:
+https://petstore.swagger.io/
+
+1. Use postman to import 'petstore' Collection from Swagger.
+2. Save this 'petstore' collection into github repo.
+3. Run this 'petstore' collection in Github Actions
+The example is here https://github.com/JauniusPinelis/Pipeline-testing/blob/main/.github/workflows/main.yml
+
+4. Remove failing requests from collection to pass Postman check.
+
+paskaita: 2024.05.09

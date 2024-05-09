@@ -1,0 +1,5 @@
+1. Try Create a github action for node.js pipeline.
+2. Try running this github action manually.
+Its ok that pipeline fails.
+
+paskaita: 2024-05-07.

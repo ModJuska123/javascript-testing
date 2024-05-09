@@ -1,0 +1,20 @@
+1. Install Postman on your laptop/pc
+https://www.postman.com/downloads/
+
+2. In the first homework REST api with node.js/express.
+Use ChatGPT to update the code (or do it yourself) to be able:
+Shops:
+Create new shop, get All shops
+Items:
+Create new item, get all items
+
+3. Create request in Postman to use your api:
+Create new shop, get all shops, create new items, get all items.
+
+Additional/optional:
+
+4. Status codes are important?
+What are the differences between 200,201,204, 400,401,403,404,500,503.
+
+5. Update your code with Delete, Update functionalities 
+and create Postman Requests for those.
