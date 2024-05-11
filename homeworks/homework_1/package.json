@@ -1,18 +1,18 @@
 {
   "name": "shopitemapi",
   "version": "1.0.0",
-  "description": "",
   "main": "shopItemApi.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "shopItemApi": "dead-server --host=localhost --port=3000"
-
-
   },
   "keywords": [],
   "author": "Modestas Juska",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.19.2"
-  }
+    "express": "^4.19.2",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.0"
+  },
+  "description": ""
 }
