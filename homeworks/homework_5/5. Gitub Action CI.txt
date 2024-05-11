@@ -3,3 +3,7 @@
 Its ok that pipeline fails.
 
 paskaita: 2024-05-07.
+
+Sprendimas: susipažinta, patikrinta medžiaga.
+Įkelti keli workflows į javascript testing/actions. 
+Problema - visi workflows feilina, :(
