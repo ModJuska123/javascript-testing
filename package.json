@@ -1,5 +1,17 @@
 {
   "dependencies": {
-    "dead-server": "^1.0.9"
-  }
+    "dead-server": "^1.0.9",
+    "express": "^4.19.2"
+  },
+  "name": "javascript-testing",
+  "description": "Week 2:\r Branch modcls",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Modestas Juska",
+  "license": "MIT"
 }
