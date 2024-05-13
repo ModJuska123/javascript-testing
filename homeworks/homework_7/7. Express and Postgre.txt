@@ -1,0 +1,19 @@
+You already have an example for Todos api (and each todo has category and user).
+The application has a connection to postgre db.
+
+1. Create a node.js express api (use chatgpt) to create and get transaction.
+There should be two table in database, User and Transaction. User just has a name, transaction just has Amount, UserFrom, UserTo.
+You should be able to create and get transactions.
+It should store data in PostgreDB.
+
+2. Test you application with Postman. That you are able to create and get transactions.
+Verify that in PostgreDB you have this data.
+
+Additional 
+
+3. Verify that you have foreign keys in your schemas.
+4. Populate Transactions and Users with random data.
+
+4. Write SQL queries (chatgpt can generate):
+Get me the name of the user that has most money sent to.
+Get me a sum how much money has been sent overall.
