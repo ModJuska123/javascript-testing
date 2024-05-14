@@ -1,6 +1,6 @@
 const express = require('express');
-// const bodyParser = require('body-parser');
-const { Pool } = require('pg');;
+const bodyParser = require('body-parser');
+const { Pool } = require('pg');
 
 const app = express();
 
@@ -15,7 +15,7 @@ const pool = new Pool({
 });
 
 // Middleware
-app.use(express.json());
+app.use(bodyParser.json());
 
 // Routes
 app.post('/transaction', async (req, res) => {
