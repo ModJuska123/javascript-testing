@@ -1,0 +1,4 @@
+You have an application for creating and gettings transactions.
+
+1. In your Jest and SuperTest tests, replace database with mocked dependency.
+https://jestjs.io/docs/mock-functions
