@@ -1,18 +1,18 @@
 const express = require('express');
 const bodyParser = require('body-parser');
-const { Pool } = require('pg');
+const pool = require('./db');
 
 const app = express();
 
 
 // PostgreSQL client setup
-const pool = new Pool({
-    user: 'postgres',
-    host: 'localhost',
-    database: 'transaction_db',
-    password: 'postgre',
-    port: 5432,
-});
+// const pool = new Pool({
+//     user: 'postgres',
+//     host: 'localhost',
+//     database: 'transaction_db',
+//     password: 'postgre',
+//     port: 5432,
+// });
 
 // Middleware
 app.use(bodyParser.json());

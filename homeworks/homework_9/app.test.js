@@ -1,6 +1,8 @@
 const request = require("supertest");
 const app = require("./app");
 
+jest.mock('./db');
+
 describe("GET /transaction", () => {
   it("responds with JSON message", async () => {
     const response = await request(app).get("/transaction");
