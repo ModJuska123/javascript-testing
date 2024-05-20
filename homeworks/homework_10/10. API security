@@ -1,0 +1,9 @@
+You will create an API with Auth0 authorization.
+Please then test if authorization works with Postman.
+
+1. Register https://oauth2.com/
+2. Create an an empty API (take from quickstart), apply the code from Auth0.
+3. Then go to 'Test' and import curl to Postman. You will receive a bearer token.
+4. Use that token successfully to call the api.
+
+You will be asked to show that you are able to authenticate and call the api.

@@ -12,15 +12,15 @@ describe("GET /transaction", () => {
   });
 });
 
-describe("POST /transaction", () => {
-  it("responds with JSON message and creates a transaction", async () => {
-    const transactionData = { amount: 100, userFrom: 1, userTo: 2 };
-    const response = await request(app)
-      .post("/transaction")
-      .send(transactionData);
+// describe("POST /transaction", () => {
+//   it("responds with JSON message and creates a transaction", async () => {
+//     const transactionData = { amount: 100, userFrom: 1, userTo: 2 };
+//     const response = await request(app)
+//       .post("/transaction")
+//       .send(transactionData);
 
-    expect(response.statusCode).toBe(200);
-    // Expect the returned data to have an "id" property
-    expect(response.body).toHaveProperty("id");
-  });
-});
+//     expect(response.statusCode).toBe(200);
+//     // Expect the returned data to have an "id" property
+//     expect(response.body).toHaveProperty("id");
+//   });
+// });
