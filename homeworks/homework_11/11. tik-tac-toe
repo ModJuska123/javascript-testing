@@ -1,0 +1,4 @@
+You have working code in https://github.com/JauniusPinelis/Javascript-testing/tree/main/samples/tic-tac-toe
+
+1. Try copying this code to your repo and run app+cypress.
+2. Add additional cypress e2e tests. 
