@@ -1,0 +1,20 @@
+{
+  "name": "projects",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "newman run movie_store.postman_collection.json",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "Modestas Juska",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "newman": "^6.1.2",
+    "nodemon": "^3.1.0"
+  }
+}

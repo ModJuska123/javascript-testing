@@ -1,0 +1,14 @@
+You will create an automated Postman test framework using Postman, newman and Github actions.
+
+1. Please create a CRUD application to manage movie-store.
+Movie can have a title, production-date, producer and rating
+
+2. Postman should have tests for two business cases
+
+1. I am able to create and remove a movie. (Use GET by id after the movie was removed)
+2. I am able to get a movie by id and successfully update its rating.
+
+3. There should be a github action, which i can click and run all these scenario tests.
+
+Inspiration:
+https://github.com/JauniusPinelis/postman-testing-pipelines
