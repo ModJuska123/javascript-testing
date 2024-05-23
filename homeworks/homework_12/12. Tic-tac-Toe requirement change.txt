@@ -1,0 +1,9 @@
+Requirements in tic-tac-toe have changed.
+
+1. There is a new requirement: you have to play againt AI (not against yourself).
+Use chatGPT to implement this change (the response can be random)
+
+2. You have already existing tests. Many tests will fail. Writing tests will become harder.
+Modify your tests to cover this new requirements. Think if what you are testing can be easily broken?
+
+Think that later on i might ask you to change the size of the board. If they do would pass, think how to modify those.
