@@ -1,6 +1,10 @@
-describe('Header Test', () => {
-  it('should have a header with text "Hello"', () => {
-    cy.visit('http://localhost:5173'); // Visit the page you want to test
-    cy.contains('div', 'Next player: X').should('exist'); // Check for headers with text "Hello"
+describe('Check header text', () => {
+  it('should contain a header with the text "Hello"', () => {
+    // Visit the page you want to test
+    cy.visit('https://localhost:5173'); // Replace with your actual URL
+
+    // Check if there is an element with the text "Hello"
+    cy.contains('div', 'Next player: X')
+      .should('exist'); // Asserts that the element exists
   });
 });
