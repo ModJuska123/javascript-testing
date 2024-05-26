@@ -10,7 +10,7 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v2
       with:
-        submodules: true
+        submodules: recursive
         fetch-depth: 0
 
     - name: Set up Node.js
@@ -18,11 +18,14 @@ jobs:
       with:
         node-version: '14'
 
+    - name: Install Newman
+      run: npm install -g newman
+
+    - name: Run Postman Collection
+      run: newman run postman/movie_store.postman_collection.json
+
     - name: Install dependencies
       run: npm install
-
-    - name: Check Git status
-      run: git status
 
     - name: Run tests
       run: npm test
