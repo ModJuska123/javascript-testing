@@ -22,7 +22,7 @@ jobs:
       run: npm install -g newman
 
     - name: Run Postman Collection
-      run: projects/newman run postman/movie_store.postman_collection.json
+      run: javascript-testing/projects/newman run postman/movie_store.postman_collection.json
 
     - name: Install dependencies
       run: npm install
