@@ -16,13 +16,13 @@ jobs:
     - name: Set up Node.js
       uses: actions/setup-node@v2
       with:
-        node-version: '14'
+        node-version: '16'
 
     - name: Install Newman
       run: npm install -g newman
 
     - name: Run Postman Collection
-      run: newman run postman/movie_store.postman_collection.json
+      run: projects/newman run postman/movie_store.postman_collection.json
 
     - name: Install dependencies
       run: npm install
