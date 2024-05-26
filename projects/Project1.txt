@@ -16,3 +16,4 @@ https://github.com/JauniusPinelis/postman-testing-pipelines
 testing workflow:
 1 try: nothing
 2 try: 
+3 try: 
